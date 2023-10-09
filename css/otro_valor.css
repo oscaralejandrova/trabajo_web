@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007bff; /* Azul */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Tono más oscuro de azul al pasar el mouse */
+}
+Este código CSS estiliza los elementos en la página, incluyendo la imagen, el párrafo, el campo de entrada (input) y los botones. Asegúrate de vincular este archivo CSS correctamente en tu archivo HTML para que se apliquen estos estilos.
+
+
+
+
+

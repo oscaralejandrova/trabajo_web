@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio</title>
+    <link rel="stylesheet" href="/css/clave.css">
+</head>
+
+<body>
+
+    <img src="/imagenes/banco1.jfif" alt="Descripción de la imagen">
+
+    <p>Digite su clave de 4 digitos para continuar</p>
+
+    <label for="valor">Ingrese un valor:</label>
+    <input type="password" id="valor" name="valor">
+
+    <div id="numeroIngresado"></div>
+
+    <div class="botonContainer">
+        <button class="botonNumero" onclick="agregarNumero(1)">1</button>
+        <button class="botonNumero" onclick="agregarNumero(2)">2</button>
+        <button class="botonNumero" onclick="agregarNumero(3)">3</button>
+        <button class="botonNumero" onclick="agregarNumero(4)">4</button>
+        <button class="botonNumero" onclick="agregarNumero(5)">5</button>
+        <button class="botonNumero" onclick="agregarNumero(6)">6</button>
+        <button class="botonNumero" onclick="agregarNumero(7)">7</button>
+        <button class="botonNumero" onclick="agregarNumero(8)">8</button>
+        <button class="botonNumero" onclick="agregarNumero(9)">9</button>
+        <button class="botonNumero" onclick="agregarNumero(0)">0</button>
+    </div>
+    <script>
+        var numeroIngresado = '';
+
+        function agregarNumero(numero) {
+            numeroIngresado += numero;
+            document.getElementById('numeroIngresado').textContent = numeroIngresado;
+        }
+    </script>
+
+<a href="/resultado_retiro/resultado_retiro.html">
+    <button>Iniciar Transacción</button>
+</a>
+
+    
+    
+
+</body>
+
+</html>
